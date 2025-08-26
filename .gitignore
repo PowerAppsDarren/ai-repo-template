@@ -1,0 +1,462 @@
+###############################################################################
+# OS / FILESYSTEM NOISE
+###############################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# Windows
+$RECYCLE.BIN/
+Thumbs.db
+
+###############################################################################
+# NODE / JAVASCRIPT / TYPESCRIPT
+###############################################################################
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+.storybook-static/
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.vite/
+.rollup.cache/
+.cache/
+.cache-loader/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+.yarn/releases/
+.yarn/plugins/
+.yarn/sdks/
+.yarn/versions/
+.yarnrc.yml
+# Lockfiles (usually commit ONE of these; uncomment to ignore globally)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Logs / diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+turbo-*
+.report
+*.tsbuildinfo
+
+###############################################################################
+# PYTHON
+###############################################################################
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+pytest-debug.log
+.pyre/
+.pytype/
+.dmypy.json
+.mruff_cache/
+ruff_cache/
+Pipfile.lock
+poetry.lock
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+# If you keep a root .env for secrets, ignore (but keep a tracked .env.example)
+.env
+.env.local
+.env.*.local
+
+###############################################################################
+# JAVA / JVM
+###############################################################################
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+# Build tools
+target/
+build/
+.gradle/
+.gradle-cache/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+out/
+# Maven / Gradle wrapper logs
+mvnw.cmd
+# (Usually commit mvnw & gradlew plus wrapper JARs—comment the above if desired)
+
+###############################################################################
+# KOTLIN / ANDROID (generic)
+###############################################################################
+*.iml
+.gradle/
+local.properties
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+captures/
+outputs/
+.gradle/
+build/
+# Android specifics
+.gen/
+bin/
+app/build/
+
+###############################################################################
+# .NET
+###############################################################################
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.rsuser
+*.vsp
+*.vspscc
+.vs/
+project.lock.json
+artifacts/
+TestResults/
+*.VisualState.xml
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vsix
+.nuget/
+packages/
+# (Often commit packages.config or lockfiles; adjust policy)
+
+###############################################################################
+# GO
+###############################################################################
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Build cache
+/go/bin/
+/go/pkg/
+# Coverage
+*.cover
+coverage.out
+
+###############################################################################
+# RUST / CARGO
+###############################################################################
+target/
+Cargo.lock
+# (For applications you usually COMMIT Cargo.lock; libraries sometimes ignore)
+
+###############################################################################
+# RUBY
+###############################################################################
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+pkg/
+.yardoc/
+.yardoc
+.rspec_status
+*.gem
+Gemfile.lock
+# (Usually commit Gemfile.lock for apps)
+
+###############################################################################
+# PHP / COMPOSER
+###############################################################################
+vendor/
+composer.phar
+composer.lock
+# (Often commit composer.lock)
+
+###############################################################################
+# C / C++ / GENERAL COMPILED
+###############################################################################
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.dSYM/
+*.swp
+*.swo
+
+###############################################################################
+# DATA / TEMP / MISC
+###############################################################################
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+tmp/
+temp/
+*.pid
+*.seed
+*.pid.lock
+
+###############################################################################
+# TEST / COVERAGE / REPORTS
+###############################################################################
+coverage/
+lcov.info
+htmlcov/
+.jacoco/
+jacoco.exec
+test-output/
+reports/
+allure-results/
+allure-report/
+
+###############################################################################
+# EDITORS & IDEs
+###############################################################################
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/snippets/
+# JetBrains
+.idea/
+*.iml
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+###############################################################################
+# DOCKER / CONTAINERS
+###############################################################################
+# Docker intermediate stuff
+.docker/
+docker-compose.override.yml
+# BuildKit / caches
+.cache_docker/
+
+###############################################################################
+# ENVIRONMENT / SECRETS (Adjust carefully!)
+###############################################################################
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cer
+*.crt
+*.der
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.secret
+secrets/
+secret/
+*.auth
+*.credentials
+
+###############################################################################
+# PACKAGE MANAGER / LOCKFILE CHOICES (uncomment to enforce ignoring)
+###############################################################################
+# If your policy is to commit lockfiles, leave commented.
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# Pipfile.lock
+# poetry.lock
+# Gemfile.lock
+# Cargo.lock
+# composer.lock
+
+###############################################################################
+# MONOREPO / TOOLING
+###############################################################################
+lerna-debug.log*
+rush-*.log
+.turbo/
+turbo/
+changes/
+.changeset/
+.changeset
+
+###############################################################################
+# LINT / FORMATTER / TOOL CACHES
+###############################################################################
+.eslintcache
+.stylelintcache
+.prettier-cache/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.parcel-cache/
+.rustup/
+.rustc/
+.clangd/
+.ccls-cache/
+
+###############################################################################
+# FRONTEND FRAMEWORK OUTPUT
+###############################################################################
+.next/
+out/
+.nuxt/
+.svelte-kit/
+.angular/
+.angular/cache/
+storybook-static/
+.storybook-out/
+dist/
+build/
+
+###############################################################################
+# MISC FRAMEWORKS
+###############################################################################
+# Django
+*.pyc
+staticfiles/
+media/
+# Flask
+instance/
+# Rails (additional)
+db/*.sqlite3
+db/schema.rb
+db/structure.sql
+
+###############################################################################
+# CI / TOOL GENERATED
+###############################################################################
+coverage-final.json
+test-results.xml
+JUnitReport.xml
+
+###############################################################################
+# ARCHIVES / BACKUPS
+###############################################################################
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+
+###############################################################################
+# GRAPHICS / DESIGN (if generated)
+###############################################################################
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+###############################################################################
+# LOCAL ONLY SCRIPTS / NOTES (optional)
+###############################################################################
+local/
+notes/
+scratch/
