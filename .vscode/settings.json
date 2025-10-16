@@ -241,14 +241,5 @@
     "dockerize",
     "kubectl",
     "devcontainer"
-  ],
-
-  // Remote Development
-  "remote.SSH.remotePlatform": {
-    "coolify.darrensapps.app": "linux"
-  },
-
-  // Security Settings
-  "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false
+  ]
 }
